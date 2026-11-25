@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b1446"/>
+      <stop offset="0.35" stop-color="#4b2a7b"/>
+      <stop offset="0.62" stop-color="#d94f70"/>
+      <stop offset="0.82" stop-color="#ff9a4d"/>
+      <stop offset="1" stop-color="#ffd166"/>
+    </linearGradient>
+    <linearGradient id="mtn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5b3f8c"/>
+      <stop offset="1" stop-color="#3a2a66"/>
+    </linearGradient>
+    <linearGradient id="hill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2e5e4e"/>
+      <stop offset="1" stop-color="#1d3d36"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff3b0"/>
+      <stop offset="0.6" stop-color="#ffd166"/>
+      <stop offset="1" stop-color="#ffd166" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .star{fill:#fff;animation:tw 3s ease-in-out infinite}
+      .s2{animation-delay:1s}.s3{animation-delay:2s}
+      @keyframes tw{0%,100%{opacity:.2}50%{opacity:1}}
+      .cloud{fill:#ffffff;opacity:.18}
+      .c1{animation:drift 60s linear infinite}
+      .c2{animation:drift 85s linear infinite;animation-delay:-30s}
+      @keyframes drift{from{transform:translateX(-300px)}to{transform:translateX(1300px)}}
+      .win{fill:#ffd166;animation:flick 4s ease-in-out infinite}
+      .w2{animation-delay:1.3s}.w3{animation-delay:2.6s}
+      @keyframes flick{0%,100%{opacity:1}45%{opacity:.55}55%{opacity:1}}
+      .cursor{animation:blink 1s steps(1) infinite}
+      @keyframes blink{50%{opacity:0}}
+      .bird{fill:none;stroke:#1b1446;stroke-width:2;stroke-linecap:round;animation:fly 22s linear infinite}
+      @keyframes fly{from{transform:translate(-80px,0)}to{transform:translate(1300px,-40px)}}
+      text{font-family:'JetBrains Mono','Fira Code',Consolas,monospace}
+    </style>
+  </defs>
+
+  <!-- cielo -->
+  <rect width="1200" height="380" fill="url(#sky)"/>
+  <circle class="star" cx="80" cy="40" r="1.6"/><circle class="star s2" cx="210" cy="70" r="1.2"/>
+  <circle class="star s3" cx="420" cy="30" r="1.5"/><circle class="star" cx="640" cy="55" r="1.1"/>
+  <circle class="star s2" cx="880" cy="25" r="1.6"/><circle class="star s3" cx="1060" cy="60" r="1.3"/>
+  <circle class="star" cx="1150" cy="30" r="1.1"/><circle class="star s3" cx="330" cy="95" r="1"/>
+
+  <!-- sol -->
+  <circle cx="930" cy="215" r="90" fill="url(#sun)"/>
+  <circle cx="930" cy="215" r="42" fill="#fff1a8"/>
+
+  <!-- nubes -->
+  <g class="c1"><ellipse class="cloud" cx="0" cy="110" rx="70" ry="14"/><ellipse class="cloud" cx="40" cy="100" rx="40" ry="12"/></g>
+  <g class="c2"><ellipse class="cloud" cx="0" cy="160" rx="90" ry="13"/><ellipse class="cloud" cx="-40" cy="150" rx="45" ry="11"/></g>
+
+  <!-- volcán Pichincha -->
+  <path d="M0 260 L120 210 L260 150 L330 118 L360 128 L395 112 L470 160 L620 215 L760 200 L900 230 L1050 190 L1200 220 L1200 380 L0 380Z" fill="url(#mtn)"/>
+  <path d="M330 118 L360 128 L395 112 L415 124 L380 135 L350 132Z" fill="#ffffff" opacity=".55"/>
+
+  <!-- aves -->
+  <g class="bird"><path d="M100 130 q6 -6 12 0 q6 -6 12 0"/><path d="M130 118 q5 -5 10 0 q5 -5 10 0"/></g>
+
+  <!-- El Panecillo con la Virgen -->
+  <path d="M40 300 Q150 200 280 300Z" fill="url(#hill)"/>
+  <g fill="#1d1640" transform="translate(160,212)">
+    <rect x="-6" y="18" width="12" height="16"/>
+    <path d="M0 -18 L5 -10 L7 18 L-7 18 L-5 -10Z"/>
+    <circle cx="0" cy="-22" r="4.5"/>
+    <path d="M-5 -8 L-22 -20 L-24 -16 L-6 -2Z"/><path d="M5 -8 L22 -20 L24 -16 L6 -2Z"/>
+  </g>
+
+  <!-- skyline colonial (silueta) -->
+  <g fill="#2a1f55">
+    <!-- Basílica del Voto Nacional -->
+    <rect x="760" y="170" width="22" height="130"/><rect x="800" y="170" width="22" height="130"/>
+    <path d="M757 170 L771 128 L785 170Z"/><path d="M797 170 L811 128 L825 170Z"/>
+    <rect x="782" y="210" width="18" height="90"/><path d="M782 210 L791 192 L800 210Z"/>
+    <rect x="740" y="220" width="104" height="80"/>
+    <path d="M842 230 L900 230 L900 300 L842 300Z"/><path d="M842 230 L871 200 L900 230Z"/>
+    <!-- La Compañía / San Francisco -->
+    <rect x="470" y="225" width="120" height="75"/>
+    <path d="M500 225 Q530 175 560 225Z"/><rect x="527" y="168" width="6" height="16"/><rect x="522" y="172" width="16" height="4"/>
+    <rect x="455" y="190" width="24" height="110"/><path d="M455 190 Q467 170 479 190Z"/>
+    <rect x="581" y="190" width="24" height="110"/><path d="M581 190 Q593 170 605 190Z"/>
+    <!-- Catedral -->
+    <rect x="330" y="240" width="90" height="60"/><path d="M350 240 Q375 205 400 240Z"/>
+    <rect x="1000" y="235" width="70" height="65"/><path d="M1012 235 Q1035 200 1058 235Z"/>
+  </g>
+  <!-- ventanas de la basílica -->
+  <circle class="win" cx="791" cy="240" r="6"/>
+  <rect class="win w2" x="766" y="190" width="10" height="16" rx="5"/>
+  <rect class="win w3" x="806" y="190" width="10" height="16" rx="5"/>
+  <rect class="win w2" x="526" y="245" width="8" height="14" rx="4"/>
+
+  <!-- casas de La Ronda -->
+  <g>
+    <g transform="translate(0,0)">
+      <rect x="0" y="292" width="1200" height="88" fill="#1b1446"/>
+    </g>
+    <!-- fila de casas -->
+    <g stroke="#1b1446" stroke-width="1">
+      <rect x="10"  y="282" width="70" height="60" fill="#f4ede1"/><path d="M4 284 L45 262 L86 284Z" fill="#c4452f"/>
+      <rect x="80"  y="290" width="60" height="52" fill="#4fb3bf"/><path d="M74 292 L110 272 L146 292Z" fill="#b13c2a"/>
+      <rect x="140" y="278" width="75" height="64" fill="#ffd166"/><path d="M134 280 L177 256 L221 280Z" fill="#c4452f"/>
+      <rect x="215" y="288" width="65" height="54" fill="#f4ede1"/><path d="M209 290 L247 268 L286 290Z" fill="#a8382a"/>
+      <rect x="280" y="282" width="70" height="60" fill="#e76f51"/><path d="M274 284 L315 262 L356 284Z" fill="#8c2f22"/>
+      <rect x="350" y="290" width="60" height="52" fill="#2a9d8f"/><path d="M344 292 L380 272 L416 292Z" fill="#c4452f"/>
+      <rect x="410" y="284" width="72" height="58" fill="#f4ede1"/><path d="M404 286 L446 264 L488 286Z" fill="#b13c2a"/>
+      <rect x="482" y="290" width="62" height="52" fill="#3a86ff"/><path d="M476 292 L513 272 L550 292Z" fill="#c4452f"/>
+      <rect x="544" y="280" width="74" height="62" fill="#ffd166"/><path d="M538 282 L581 258 L624 282Z" fill="#a8382a"/>
+      <rect x="618" y="288" width="64" height="54" fill="#f4ede1"/><path d="M612 290 L650 268 L688 290Z" fill="#c4452f"/>
+      <rect x="682" y="284" width="70" height="58" fill="#e76f51"/><path d="M676 286 L717 264 L758 286Z" fill="#8c2f22"/>
+      <rect x="752" y="290" width="60" height="52" fill="#4fb3bf"/><path d="M746 292 L782 272 L818 292Z" fill="#b13c2a"/>
+      <rect x="812" y="280" width="76" height="62" fill="#f4ede1"/><path d="M806 282 L850 258 L894 282Z" fill="#c4452f"/>
+      <rect x="888" y="288" width="64" height="54" fill="#2a9d8f"/><path d="M882 290 L920 268 L958 290Z" fill="#a8382a"/>
+      <rect x="952" y="282" width="72" height="60" fill="#ffd166"/><path d="M946 284 L988 262 L1030 284Z" fill="#c4452f"/>
+      <rect x="1024" y="290" width="62" height="52" fill="#f4ede1"/><path d="M1018 292 L1055 272 L1092 292Z" fill="#8c2f22"/>
+      <rect x="1086" y="282" width="108" height="60" fill="#e76f51"/><path d="M1080 284 L1140 258 L1200 284Z" fill="#b13c2a"/>
+    </g>
+    <!-- balcones y puertas -->
+    <g fill="#2f5d3a">
+      <rect x="25" y="300" width="40" height="5"/><rect x="155" y="296" width="45" height="5"/>
+      <rect x="425" y="302" width="42" height="5"/><rect x="560" y="298" width="42" height="5"/>
+      <rect x="828" y="298" width="44" height="5"/><rect x="968" y="300" width="40" height="5"/>
+      <rect x="1105" y="300" width="70" height="5"/>
+    </g>
+    <g fill="#5b3a1e">
+      <rect x="38" y="318" width="14" height="24" rx="7"/><rect x="104" y="320" width="12" height="22" rx="6"/>
+      <rect x="170" y="316" width="14" height="26" rx="7"/><rect x="240" y="320" width="14" height="22" rx="7"/>
+      <rect x="308" y="318" width="14" height="24" rx="7"/><rect x="374" y="320" width="12" height="22" rx="6"/>
+      <rect x="439" y="318" width="14" height="24" rx="7"/><rect x="506" y="320" width="12" height="22" rx="6"/>
+      <rect x="574" y="316" width="14" height="26" rx="7"/><rect x="643" y="320" width="12" height="22" rx="6"/>
+      <rect x="710" y="318" width="14" height="24" rx="7"/><rect x="776" y="320" width="12" height="22" rx="6"/>
+      <rect x="843" y="316" width="14" height="26" rx="7"/><rect x="913" y="320" width="12" height="22" rx="6"/>
+      <rect x="981" y="318" width="14" height="24" rx="7"/><rect x="1048" y="320" width="12" height="22" rx="6"/>
+      <rect x="1133" y="318" width="14" height="24" rx="7"/>
+    </g>
+    <g>
+      <rect class="win" x="98" y="300" width="9" height="10"/><rect class="win w2" x="230" y="298" width="9" height="10"/>
+      <rect class="win w3" x="296" y="294" width="9" height="10"/><rect class="win" x="365" y="300" width="9" height="10"/>
+      <rect class="win w2" x="496" y="300" width="9" height="10"/><rect class="win w3" x="632" y="298" width="9" height="10"/>
+      <rect class="win" x="698" y="296" width="9" height="10"/><rect class="win w2" x="766" y="300" width="9" height="10"/>
+      <rect class="win w3" x="902" y="298" width="9" height="10"/><rect class="win" x="1038" y="300" width="9" height="10"/>
+    </g>
+  </g>
+  <!-- calle empedrada -->
+  <rect x="0" y="342" width="1200" height="38" fill="#2a2250"/>
+  <g fill="#3a3070">
+    <rect x="20" y="352" width="30" height="6" rx="3"/><rect x="120" y="364" width="30" height="6" rx="3"/>
+    <rect x="260" y="352" width="30" height="6" rx="3"/><rect x="400" y="366" width="30" height="6" rx="3"/>
+    <rect x="560" y="354" width="30" height="6" rx="3"/><rect x="720" y="364" width="30" height="6" rx="3"/>
+    <rect x="880" y="352" width="30" height="6" rx="3"/><rect x="1040" y="366" width="30" height="6" rx="3"/>
+  </g>
+
+  <!-- texto -->
+  <g transform="translate(600,0)" text-anchor="middle">
+    <text y="78" font-size="50" font-weight="800" fill="#ffffff" stroke="#1b1446" stroke-width="1.2">Mateo Morejón</text>
+    <text y="112" font-size="19" fill="#ffe9a8">&lt;FullStackDeveloper from="Quito, Ecuador" /&gt;</text>
+    <!-- bandera Ecuador -->
+    <g transform="translate(-27,126)">
+      <rect width="54" height="8" fill="#FFD100"/><rect y="8" width="54" height="4" fill="#0072CE"/><rect y="12" width="54" height="4" fill="#EF3340"/>
+    </g>
+  </g>
+</svg>

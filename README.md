@@ -1,9 +1,6 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:1F6FEB,100:0F2A4A&height=220&section=header&text=Mateo%20Morej%C3%B3n&fontSize=56&fontAlignY=35&fontColor=ffffff&animation=fadeIn&desc=Full%20Stack%20Developer%20%E2%80%A2%20Quito%20%F0%9F%87%AA%F0%9F%87%A8&descAlignY=55&descSize=18" />
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ffffff,50:9ecbff,100:2F81F7&height=220&section=header&text=Mateo%20Morej%C3%B3n&fontSize=56&fontAlignY=35&fontColor=0F2A4A&animation=fadeIn&desc=Full%20Stack%20Developer%20%E2%80%A2%20Quito%20%F0%9F%87%AA%F0%9F%87%A8&descAlignY=55&descSize=18" />
-</picture>
+<img src="./banner.svg" width="100%" alt="Mateo Morejón — Full Stack Developer desde Quito, Ecuador" />
 
 <a href="https://linkedin.com/in/mateo-morejon">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=2F81F7&center=true&vCenter=true&multiline=false&width=640&height=45&lines=%3E+npm+run+mateo;Full+Stack+%7C+React+%C2%B7+Next.js+%C2%B7+NestJS;Automatizo+lo+aburrido+con+Python+%F0%9F%90%8D;Psic%C3%B3logo+que+escribe+c%C3%B3digo+%F0%9F%A7%A0%F0%9F%92%BB;%E2%9C%94+Compiled+successfully" />
