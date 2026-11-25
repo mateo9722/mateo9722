@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,50:0F2A4A,100:2F81F7&height=220&section=header&text=Mateo%20Morej%C3%B3n&fontSize=58&fontColor=ffffff&animation=fadeIn&desc=Full%20Stack%20Developer%20%E2%80%A2%20Quito%20%F0%9F%87%AA%F0%9F%87%A8&descAlignY=72&descSize=18" />
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:ffffff,50:9ecbff,100:2F81F7&height=220&section=header&text=Mateo%20Morej%C3%B3n&fontSize=58&fontColor=0F2A4A&animation=fadeIn&desc=Full%20Stack%20Developer%20%E2%80%A2%20Quito%20%F0%9F%87%AA%F0%9F%87%A8&descAlignY=72&descSize=18" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:1F6FEB,100:0F2A4A&height=220&section=header&text=Mateo%20Morej%C3%B3n&fontSize=56&fontAlignY=35&fontColor=ffffff&animation=fadeIn&desc=Full%20Stack%20Developer%20%E2%80%A2%20Quito%20%F0%9F%87%AA%F0%9F%87%A8&descAlignY=55&descSize=18" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ffffff,50:9ecbff,100:2F81F7&height=220&section=header&text=Mateo%20Morej%C3%B3n&fontSize=56&fontAlignY=35&fontColor=0F2A4A&animation=fadeIn&desc=Full%20Stack%20Developer%20%E2%80%A2%20Quito%20%F0%9F%87%AA%F0%9F%87%A8&descAlignY=55&descSize=18" />
 </picture>
 
 <a href="https://linkedin.com/in/mateo-morejon">
